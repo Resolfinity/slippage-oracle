@@ -1,0 +1,14 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = [
+    "lib",
+    "node_modules",
+]
+remappings = [
+    "@openzeppelin/=node_modules/@openzeppelin/",
+    "@uniswap/=node_modules/@uniswap/",
+    "base64-sol/=node_modules/base64-sol/",
+]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
